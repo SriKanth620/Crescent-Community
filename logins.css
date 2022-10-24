@@ -1,0 +1,87 @@
+*{
+	margin: 0px;  
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'monsterrat', sans-serif;
+	height: 100vh;
+	background: linear-gradient(120deg, #2980b9,#8e44ad);
+	overflow: hidden;
+	margin: 40px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.container {
+	width: fit-content;
+	height: auto;
+	display: flex;
+	margin: 40px;
+	margin-top: 00px;
+	padding: 10px 30px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border: none;
+	border-radius: 15px;
+}
+.box1 {
+	border-bottom: 1px solid silver;
+	padding:  0px 45%;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.user {
+	border: none;
+	margin: 20px 0px;
+	border-bottom: 1px solid silver;
+}
+.label1{
+	margin-top: 40px;
+	font-size: 25px;
+}
+.label2{
+	margin-top: 20px;
+	font-size: 25px;
+}
+.pass {
+	border: none;
+	border-bottom: 1px solid silver;
+	margin: 15px 0px;
+}
+.button {
+	margin: 20px 0px;
+	font-size: 20px;
+	padding: 15px ;
+	border-radius: 15px;
+	background: linear-gradient(120deg, #2980b9,#8e44ad);
+	border: none;
+	color: white;
+	box-shadow: 2px 1px 5px rgb(41, 25, 79);	
+}
+.button:hover{
+	border: 2px solid black;
+}
+.button:active{
+    border: 1px solid black;	
+}
+.div {
+	text-align: center;
+	margin-bottom: 15px;	
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
